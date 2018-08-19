@@ -1,0 +1,61 @@
+
+.formlist{
+    padding-top: 50px;
+    width: 400px;
+    border: 1px dashed white;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+.ullist{
+    margin: 0;
+    padding: 0;
+}
+.ullist li{
+    position: relative;
+    list-style: none;
+    line-height: 35px;
+    margin: 20px 0;
+}
+.ullist li label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.ullist li input[type=text], .ullist li input[type=password]{
+    width: 270px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid silver;
+    padding: 0 10px;
+}
+.libtn{
+    text-align: center;
+}
+.libtn input{
+    height: 30px;
+    width: 100px;
+    margin: 0 10px;
+}
+#yama{
+    width: 150px;
+}
+.r_ya{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background-color: silver;
+    margin: 0px 10px;
+    text-align: center;
+}
+.error{
+    display: block;
+    position: absolute;
+    width: 290px;
+    top: 33px;
+    right: 10px;
+    line-height: 25px;
+    font-size: small;
+    color: red;
+}
